@@ -1,0 +1,34 @@
+{
+  "vulns": [
+    {
+      "id": "CVE-2023-32681",
+      "summary": "Redirect header leak",
+      "details": "Requests is leaking Proxy-Authorization headers to destination servers when redirecting to an HTTPS endpoint.",
+      "database_specific": {
+        "severity": "MODERATE",
+        "cvss": {"score": 6.1}
+      },
+      "affected": [
+        {
+          "package": {
+            "name": "requests",
+            "ecosystem": "PyPI"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "2.31.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

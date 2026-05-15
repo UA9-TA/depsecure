@@ -1,0 +1,62 @@
+{
+  "vulns": [
+    {
+      "id": "CVE-2023-44271",
+      "summary": "Uncontrolled resource consumption",
+      "database_specific": {
+        "severity": "HIGH",
+        "cvss": {"score": 7.5}
+      },
+      "affected": [
+        {
+          "package": {
+            "name": "Pillow",
+            "ecosystem": "PyPI"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "10.0.1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2023-50447",
+      "summary": "Arbitrary code execution via crafted image",
+      "database_specific": {
+        "severity": "HIGH",
+        "cvss": {"score": 8.8}
+      },
+      "affected": [
+        {
+          "package": {
+            "name": "Pillow",
+            "ecosystem": "PyPI"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "10.2.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

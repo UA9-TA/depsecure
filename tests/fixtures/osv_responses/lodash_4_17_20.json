@@ -1,0 +1,33 @@
+{
+  "vulns": [
+    {
+      "id": "CVE-2021-23337",
+      "summary": "Command injection via template",
+      "database_specific": {
+        "severity": "HIGH",
+        "cvss": {"score": 7.2}
+      },
+      "affected": [
+        {
+          "package": {
+            "name": "lodash",
+            "ecosystem": "npm"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "4.17.21"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
