@@ -1,7 +1,8 @@
-import pytest
-import respx
-import httpx
 from pathlib import Path
+
+import httpx
+import respx
+
 from depsecure.checker import Checker
 
 

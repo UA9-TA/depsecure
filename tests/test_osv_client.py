@@ -1,6 +1,6 @@
-import pytest
-import respx
 import httpx
+import respx
+
 from depsecure.osv_client import OSVClient
 
 

@@ -1,6 +1,4 @@
-import pytest
-from pathlib import Path
-from depsecure.parsers import parse_requirements, parse_npm
+from depsecure.parsers import parse_npm, parse_requirements
 
 
 def test_parse_requirements(tmp_path):
