@@ -279,3 +279,4 @@ This tool is part of a suite of open-source AI-powered developer tools built by 
 - GitHub: https://github.com/UA9-TA/depsecure
 - Local path: /Users/chitra/Documents/Projects/depsecure
 - Branch: main — License: MIT
+- **Claude model:** `claude-sonnet-4-6` (use this exact string in all Anthropic API calls)
